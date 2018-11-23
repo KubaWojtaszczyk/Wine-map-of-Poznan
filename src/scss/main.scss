@@ -1,0 +1,161 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  body {
+    height: 100vh;
+    width: 100vw;
+
+  }
+
+  #root {
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .sectionMain{
+    header {
+      background-color: #722D4A;
+      color: white;
+      font-size: 30px;
+      width: 100%;
+      padding: 10px 0 10px 50px;
+    }
+  }
+
+  .divMain {
+    display: flex;
+    margin: 0 auto;
+    background-color: #F9D1D1;
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+      flex-wrap: wrap;
+    }
+    .firstCol {
+        background-color: #F9D1D1;
+        padding-top: 20px;
+        height: 60%;
+      }
+    .roundPhoto {
+      display: block;
+      background-image: url("../images/roundImg.png");
+      background-size: cover;
+      background-position: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: 200px;
+      height: 200px;
+    }
+    .title {
+      color: #722D4A;
+      text-align: center;
+      padding-bottom: 10px;
+      padding-top: 30px;
+    }
+    .storyContent {
+      color:#104F2F;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+
+  .map {
+    height: 100vh;
+    width: 50vw;
+  }
+
+  .child {
+    height: 100px;
+    width: 40vw;
+      }
+
+  .containerBox {
+    height: 100%;
+    .nameDiv {
+      padding-top: 10px;
+      background-color: #E67F7B;
+      color: white;
+      width: 100%;
+      height: 45%;
+      text-align: center;
+      h3 {
+        font-weight: bold;
+        font-size: 24px;
+        text-transform: lowercase;
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+      span {
+        font-size: 20px;
+      }
+    }
+    .rankPlaceDiv {
+      padding-top: 10px;
+      width: 100%;
+      height: 15%;
+      h3 {
+        text-transform: lowercase;
+        font-weight: bold;
+        color: #722D4A;
+        font-size: 24px;
+        text-align: center;
+      }
+      div {
+        text-align: center;
+
+      }
+      span {
+        color: #722D4A;
+        padding-bottom: 10px;
+      }
+    }
+    .wineRankDiv {
+      background-color: #104F2F;
+      padding-top: 20px;
+      color: white;
+      width: 100%;
+      height: 40%;
+      h3 {
+        text-transform: lowercase;
+        font-weight: bold;
+        padding-top: 10px;
+        font-size: 24px;
+        text-align: center;
+      }
+      .bottle {
+        background-image: url("../images/bottle.png");
+        background-size: cover;
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      div {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  .winery {
+  list-style: none;
+  }
+
+
