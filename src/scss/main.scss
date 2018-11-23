@@ -9,30 +9,35 @@
   body {
     height: 100vh;
     width: 100vw;
-
   }
 
   #root {
     height: 100%;
     width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
   }
 
   .sectionMain{
+      text-align: -webkit-center;
     header {
+      text-align: left;
       background-color: #722D4A;
       color: white;
       font-size: 30px;
       width: 100%;
-      padding: 10px 0 10px 50px;
+      padding-left: 30px;
+      @media (max-width: 768px) {
+        text-align: center;
+        font-size: 20px;
+
+      }
     }
   }
 
   .divMain {
-    display: flex;
     margin: 0 auto;
     background-color: #F9D1D1;
+    flex-wrap: wrap;
+
     .row {
       display: flex;
       flex-direction: row;
@@ -44,7 +49,6 @@
       flex-direction: column;
       flex-basis: 100%;
       flex: 1;
-      flex-wrap: wrap;
     }
     .firstCol {
         background-color: #F9D1D1;
@@ -72,21 +76,46 @@
       font-size: 16px;
       font-weight: bold;
       text-align: center;
+      padding-left: 10px;
+      padding-bottom: 140px;
+      @media (max-width: 768px) {
+        padding-bottom: 10px;
+      }
     }
   }
 
-  .map {
-    height: 100vh;
-    width: 50vw;
-  }
+  .divMain .row{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+    }
+
+    .map {
+      height: 100vh;
+      width: 50vw;
+      @media (max-width: 768px) {
+        width: 100vw;
+        height: 50vh;
+      }
+    }
 
   .child {
     height: 100px;
     width: 40vw;
-      }
+  }
 
   .containerBox {
     height: 100%;
+    @media (max-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      flex-basis: 100%;
+      flex: 1;
+    }
     .nameDiv {
       padding-top: 10px;
       background-color: #E67F7B;
@@ -94,31 +123,46 @@
       width: 100%;
       height: 45%;
       text-align: center;
+      @media (max-width: 768px) {
+       height: 35%;
+      }
       h3 {
         font-weight: bold;
         font-size: 24px;
         text-transform: lowercase;
         padding-bottom: 0;
         margin-bottom: 0;
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
       }
       span {
         font-size: 20px;
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
       }
     }
     .rankPlaceDiv {
       padding-top: 10px;
       width: 100%;
       height: 15%;
+      @media (max-width: 768px) {
+        height: 10%;
+        padding-top: 10px;
+      }
       h3 {
         text-transform: lowercase;
         font-weight: bold;
         color: #722D4A;
         font-size: 24px;
         text-align: center;
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
       }
       div {
         text-align: center;
-
       }
       span {
         color: #722D4A;
@@ -131,12 +175,18 @@
       color: white;
       width: 100%;
       height: 40%;
+      @media (max-width: 768px) {
+        padding-top: 10px;
+        font-size: 16px;
+      }
       h3 {
         text-transform: lowercase;
         font-weight: bold;
-        padding-top: 10px;
         font-size: 24px;
         text-align: center;
+        @media (max-width: 768px) {
+         font-size: 16px;
+        }
       }
       .bottle {
         background-image: url("../images/bottle.png");
@@ -156,6 +206,6 @@
 
   .winery {
   list-style: none;
-  }
+}
 
 

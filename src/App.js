@@ -107,24 +107,24 @@ class App extends React.Component {
          <section className="sectionMain">
               <header>Wine map of Poznan</header>
               <div className="divMain">
-                 <div className="row">
+                 <div className="row mapRow">
                    <div className="column">
                      <div style={{paddingTop:"30px"}}>
                          <div className="roundPhoto"></div>
                          <h2 className="title">DISCOVER <br/> YOUR PLACE</h2> <br/>
-                         <div style={{paddingBottom:"140px"}} className="storyContent">
+                         <div className="storyContent">
                          Tasting wine is like an adventure.<br/>
                          Different grapes, colors, climate, <br/>
                              fermentation methods and finally - <br/>
                              different brands and producing regions. <br/><br/>
                          You can taste almost all wines in Poznan. <br/>
                              Just check the map <br/>
-                             and find the best wine places <br/>
+                             and find the best wine spots <br/>
                              in your neighbourhood. <br/>
                          </div>
                      </div>
 
-                       <div style={{marginLeft:"auto", marginRight:"auto"}}>
+                       <div className="socialMedia" style={{marginLeft:"auto", marginRight:"auto"}}>
                            <a style={{textDecoration:"none"}} href="/" target="_blank"> <img src={fb} width="100" height="100" /> </a>
                            <a style={{textDecoration:"none"}} href="/" target="_blank"> <img src={insta} width="100" height="100"/> </a>
                            <a style={{textDecoration:"none"}} href="/" target="_blank"> <img src={google} width="100" height="100"/> </a>
@@ -132,7 +132,7 @@ class App extends React.Component {
 
                    </div>
 
-                   <div className="column">
+                   <div className="mapDiv column">
                         <Map className="map" center={position} zoom={this.state.zoom}>
                             <TileLayer
                                 attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
