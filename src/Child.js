@@ -32,7 +32,7 @@ class Child extends React.Component {
                 </div>
                 <div className="wineRankDiv">
                     <h3>Wine of the week</h3>
-                    <div className="bottle" style={{width: "120px", height:"120px"}}></div>
+                    <div className="bottle"></div>
                     <div style={{fontSize:"16px"}}>{this.props.winery.wineName}</div> <br/>
                     <p style={{fontSize:"16px", fontWeight:"bold"}}>Did you like the wine?</p>
                     <SpanRating style={{paddingBottom:"20px"}} callback={this.props.updateWine} id={this.props.winery.id}/>

@@ -97,7 +97,7 @@ class App extends React.Component {
                         <li style={{textAlign:"center", textWeight:"bold", paddingBottom:"5px", fontWeight:"bold", color:"#104F2F"}} key={marker.id}> check this place!
                          </li>
                       </ul>
-                      <Button  style={{textAlign:"center", outline:"none", textDecoration:"none", color:"white", fontSize:"20px", backgroundColor:"#722D4A", borderRadius:"10%"}} onClick={event=> this.toggleHidden(event, marker.id)}>{marker.name}</Button>
+                      <Button  style={{textAlign:"center", color:"white", fontSize:"20px", backgroundColor:"#722D4A", borderRadius:"10%"}} onClick={event=> this.toggleHidden(event, marker.id)}>{marker.name}</Button>
                   </Popup>
                  </Marker>
              )

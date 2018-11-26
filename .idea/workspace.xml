@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b6e2e5f-d4be-41b7-b3f4-ed4d332002eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Child.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Child.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,7 +31,7 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="10" />
           <entry key="ico" value="2" />
-          <entry key="js" value="29" />
+          <entry key="js" value="30" />
           <entry key="json" value="4" />
           <entry key="png" value="3" />
           <entry key="scss" value="1" />
@@ -43,7 +45,7 @@
           <entry key="HTML" value="10" />
           <entry key="Image" value="5" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="29" />
+          <entry key="JavaScript" value="30" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="1" />
           <entry key="SVG" value="1" />
@@ -59,9 +61,9 @@
           <entry key="css" value="9" />
           <entry key="gitignore" value="7" />
           <entry key="html" value="77" />
-          <entry key="js" value="9378" />
+          <entry key="js" value="9440" />
           <entry key="json" value="34" />
-          <entry key="scss" value="3556" />
+          <entry key="scss" value="3946" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -69,9 +71,9 @@
           <entry key="CSS" value="9" />
           <entry key="HTML" value="77" />
           <entry key="JSON" value="34" />
-          <entry key="JavaScript" value="9378" />
+          <entry key="JavaScript" value="9440" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="SCSS" value="3556" />
+          <entry key="SCSS" value="3946" />
         </counts>
       </usages-collector>
     </session>
@@ -81,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="134" column="50" lean-forward="true" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+            <state relative-caret-position="476">
+              <caret line="129" column="93" selection-start-line="129" selection-start-column="93" selection-end-line="129" selection-end-column="93" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -93,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            <state relative-caret-position="387">
+              <caret line="204" column="16" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -102,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Child.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+            <state relative-caret-position="242">
+              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -123,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Span.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="459">
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -155,6 +157,9 @@
       <find>nameS</find>
       <find>chec</find>
       <find>row</find>
+      <find>sto</find>
+      <find>200</find>
+      <find>soci</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,12 +181,12 @@
         <option value="$PROJECT_DIR$/src/WineRating.js" />
         <option value="$PROJECT_DIR$/src/fadeButton.js" />
         <option value="$PROJECT_DIR$/src/Rating.js" />
-        <option value="$PROJECT_DIR$/src/Span.js" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/Child.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Span.js" />
+        <option value="$PROJECT_DIR$/src/Child.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/scss/main.scss" />
       </list>
@@ -204,9 +209,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="482" />
-    <option name="y" value="26" />
-    <option name="width" value="665" />
+    <option name="x" value="733" />
+    <option name="width" value="709" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -241,7 +245,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nauka_react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../game/the-Britney-s-game" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\Users\Kuba\Desktop\mapa2\my-app\node_modules\eslint" />
@@ -280,12 +284,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542630470615</updated>
       <workItem from="1542630474197" duration="79527000" />
-      <workItem from="1542827472375" duration="39911000" />
+      <workItem from="1542827472375" duration="48889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119438000" />
+    <option name="totallyTimeSpent" value="128416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -293,7 +297,7 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.1532738" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.1532738" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.3295082" />
@@ -428,13 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="212" selection-start-line="8" selection-start-column="212" selection-end-line="8" selection-end-column="212" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/image/marker-icon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -460,15 +457,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Span.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="459">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="212" selection-start-line="8" selection-start-column="212" selection-end-line="8" selection-end-column="212" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Child.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        <state relative-caret-position="242">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -477,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="134" column="50" lean-forward="true" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+        <state relative-caret-position="476">
+          <caret line="129" column="93" selection-start-line="129" selection-start-column="93" selection-end-line="129" selection-end-column="93" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -487,8 +491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="387">
+          <caret line="204" column="16" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
         </state>
       </provider>
     </entry>
