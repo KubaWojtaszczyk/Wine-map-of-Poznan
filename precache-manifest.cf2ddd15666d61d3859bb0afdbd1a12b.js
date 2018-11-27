@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Wine-map-of-Poznan/static/media/fb.7f29868f.png"
   },
   {
-    "revision": "9ba276650c2364f13ad3",
-    "url": "/Wine-map-of-Poznan/static/css/main.09764452.chunk.css"
+    "revision": "357cd190b226a68dd20a",
+    "url": "/Wine-map-of-Poznan/static/css/main.e1e152d7.chunk.css"
   },
   {
     "revision": "f0197c4c866c9023ae866434f181aa81",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/Wine-map-of-Poznan/static/js/runtime~main.28edfda6.js"
   },
   {
-    "revision": "9ba276650c2364f13ad3",
-    "url": "/Wine-map-of-Poznan/static/js/main.9ba27665.chunk.js"
+    "revision": "357cd190b226a68dd20a",
+    "url": "/Wine-map-of-Poznan/static/js/main.357cd190.chunk.js"
   },
   {
     "revision": "f1677fb3d8879a8571599b176d80d1f5",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/Wine-map-of-Poznan/static/css/1.a209507b.chunk.css"
   },
   {
-    "revision": "1bec813f849d17e44db4bc6bf83e1b40",
+    "revision": "b7f7d8c4accfdc607fb9e706d11d567d",
     "url": "/Wine-map-of-Poznan/index.html"
   }
 ];

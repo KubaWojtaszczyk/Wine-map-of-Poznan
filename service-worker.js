@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Wine-map-of-Poznan/precache-manifest.103c5bdcdefe498eb2297b5b8b2fb037.js"
+  "/Wine-map-of-Poznan/precache-manifest.cf2ddd15666d61d3859bb0afdbd1a12b.js"
 );
 
 workbox.clientsClaim();
